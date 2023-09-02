@@ -1,0 +1,15 @@
+body{
+    font-family: Calibri;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    background-image: url(https://cdn.discordapp.com/attachments/1106629240323067944/1107336349746475088/Minecraft__1.19.4_-_Multiplayer_3rd-party_Server_14_05_2023_16_59_01.png);
+    background-size: 1490px;
+}
+
+button {
+    background-color: aqua;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}

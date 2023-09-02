@@ -1,0 +1,92 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right,#EE05F2,#A303A6);
+}
+
+.header-main{
+    font-size: 50px;
+    padding: 5px;
+    background-color: white;
+}
+
+.Intro{
+    text-align: center;
+    background-size:100%;
+    justify-content: flex-start;
+    border: 3px solid black;
+    border-radius: 10px;
+    height: 700px;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-gap: 20px;
+}
+
+.Plan{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px grey;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.login-body{
+    display: grid;
+    place-items: center;
+    margin-top: 170px;
+}
+
+.card{
+    position: relative;
+    margin: 0 20px;
+    padding: 80px 30px 38px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.input-login{
+    border-radius: 20px;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.submit-button{
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    background-color: rgba(0, 0, 0, 0.20);
+}
+
+.bx-menu{
+    font-size: 50px;
+}
+
+.menu-burger{
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+p{
+    font-size: 30px;
+}
+
+.button-main{
+    font-size: 30px;
+    background-color: #030526; 
+    color: white; 
+    cursor: pointer;
+    border-radius: 10px;
+}
+
