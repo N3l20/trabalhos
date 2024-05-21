@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Share+Tech&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nav */
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #352874;
+    padding: 10px;
+    margin-left: -8px;
+}  
+
+nav>a{
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+
+nav>a:hover{
+    background-color: #1E143F;
+}
+
+/* End Nav */
+
+/* Start */
+#start{
+    margin-top: 100px;
+    text-align: center;
+}
+
+#start>h1{
+    font-family: "Share Tech", sans-serif;
+    font-size: 3em;
+}
+
+#start>p{
+    font-size: 1.5em;
+}

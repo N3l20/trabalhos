@@ -1,0 +1,31 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+nav{
+    display: none;
+}
+
+#nav-wrap:focus-within>nav{
+    position: absolute;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 573px;
+    width: 25%;
+    border: 1px solid black;
+    margin-top: -46px;
+    margin-left: -9px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    transition: transform 0.5s;
+}
+
+#nav-wrap{
+    font-size: 2em;
+    position: relative;
+}

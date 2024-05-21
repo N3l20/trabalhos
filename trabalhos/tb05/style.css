@@ -1,0 +1,29 @@
+#btn-wrap{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 50%;
+    margin: auto;
+    
+}
+
+#tela{
+    color: white;
+    font-size: 60pt;
+    display: inline-block;
+    height: 100px;
+    width: 50%;
+    margin: 40px;
+    margin-left: 25%;
+    margin-bottom: 60pt;
+    background-color: black;
+}
+
+.btn{
+    font-size: 50pt;
+    border-radius: 10pt;
+}
+
+.btn:hover{
+    background-color: rgb(205, 200, 200);
+    cursor:pointer;
+}
