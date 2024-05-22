@@ -5,24 +5,19 @@ let op=undefined
 function bteq(){
     let n2= Number(tela.innerHTML)
     
-    if (op==1){
-        globalThis.res=n1+n2
-        
-    }
-
-    if (op==2){
-        globalThis.res=n1-n2
-        
-    }
-
-    if (op==3){
-        globalThis.res=n1*n2
-        
-    }
-
-    if (op==4){
-        globalThis.res=n1/n2
-        
+    switch(op){
+        case 1:
+            globalThis.res=n1+n2
+            break
+        case 2:
+            globalThis.res=n1-n2
+            break
+        case 3:
+            globalThis.res=n1*n2
+            break
+        case 4:
+            globalThis.res=n1/n2
+            break
     }
 
     tela.innerHTML= res
