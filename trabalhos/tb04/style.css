@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Share+Tech&display=swap');
 
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,6 +25,22 @@ nav>a{
 
 nav>a:hover{
     background-color: #1E143F;
+    color: white;
+}
+
+#btn-theme{
+    float: right;
+    margin-right: 14px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    padding: 3px 5px 3px 5px;
+}
+
+#btn-theme:hover{
+    background-color: #1E143F;
+    cursor: pointer;
 }
 
 /* End Nav */
@@ -38,7 +55,45 @@ nav>a:hover{
     font-family: "Share Tech", sans-serif;
     font-size: 3em;
 }
-
 #start>p{
     font-size: 1.5em;
 }
+/*End start*/
+
+@media screen and (min-width: 700px){  
+    #list{
+        text-align: center;
+        width: 50%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .wrap-project{
+        margin: 5px;
+        text-align: start;
+        padding: 3px;
+        border: 2px solid black;
+        border-radius: 4px;
+    }
+}
+
+#list{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.wrap-project{
+    margin: 5px;
+    text-align: start;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+a:hover{
+    color: black;
+}
+
+/*Theme*/

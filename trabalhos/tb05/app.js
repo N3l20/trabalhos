@@ -3,7 +3,7 @@ let op=undefined
 
 
 function bteq(){
-    let n2= Number(tela.innerHTML)
+    globalThis.n2= Number(tela.innerHTML)
     
     switch(op){
         case 1:
@@ -25,6 +25,8 @@ function bteq(){
 
 function btc(){
     tela.innerHTML=''
+    n1=undefined
+    n2=undefined
 }
 
 function btplus(){

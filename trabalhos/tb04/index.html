@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | N3l20</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    
 </head>
 <body>
     <nav>
-        <a href="#top">Home</a>
-        <a href="">Projects</a>
-        <a href="">Contact</a>
+            <a href="index.html">Home</a>
+            <a href="">Projects</a>
+            <a href="contact.html">Socials</a>
+            <span id="btn-theme" onclick="theme()">
+                <box-icon name='sun' type='solid' color='#ffffff' ></box-icon>
+            </span>
     </nav>
     <main>
         <div id="start">
@@ -19,6 +24,21 @@
             <p>Feel free to explore</p>
             
         </div>
+        <div id="list">
+            <div class="wrap-project">
+                <h1>Calculator</h1>
+                <p>A working calculator with html, css and JS.
+                </p>
+                <p>Note: This was made a long time ago so it may have bugs</p>
+                <a href="https://n3l20.github.io/trabalhos/trabalhos/tb05/index.html">Github</a>
+            </div>
+            <div class="wrap-project">
+                <h1>Project name</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, officiis illum. Ullam iusto tempore cupiditate eaque assumenda atque similique quidem placeat, veniam voluptates suscipit saepe ex animi vero quasi nobis!</p>
+                <a href="http://">Github</a>
+            </div>
+        </div>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
